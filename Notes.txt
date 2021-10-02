@@ -1,0 +1,13 @@
+take backend
+touch Notes.txt
+//mysql2 permite promesas***
+//origenes de conexion
+//swagger documentar api
+//dotenv variables de entorno
+npm i express mysql2 morgan cors swagger-jsdoc swagger-ui-express dotenv 
+npm i nodemon @babel/core @babel/cli @babel/preset-env @babel/node -D
+//babel src -d dist compila todo el codigo de src con babel a carpeta dist
+mkdir src/controllers src/routes
+touch src/database.js src/config.js src/swaggerOptions.js
+//mySQL 8.0 shell
+npm install --save-dev @babel/plugin-transform-runtime
